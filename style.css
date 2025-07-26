@@ -1,0 +1,35 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  box-shadow: 0 4px 4px black;
+  font-family: sans-serif;
+  text-align: center;
+  border-radius: 20px;
+}
+.container h1 {
+  background-color: purple;
+  padding: 10px 10px; 
+  color: white;
+  font-size: 1.4rem;
+  margin: 0;
+  border-radius: 20px;
+}
+#amount {
+  margin-top: 30px;
+  font-weight: bolder;
+  padding: 1vh;
+}
+#converted {
+  padding: 1vh;
+}
+#btn {
+  background-color: purple;
+  padding: 10px;
+  border-radius: 20px;
+  font-weight: bold;
+  color: white;
+}
